@@ -1,0 +1,18 @@
+name: pgmorl-no-mujoco
+channels:
+  - pytorch
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+    - gym==0.21.0
+    - tensorboardx
+    - cloudpickle
+    - pyyaml
